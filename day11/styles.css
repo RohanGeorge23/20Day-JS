@@ -1,0 +1,52 @@
+
+
+.title-1 h1 {
+    
+    background-color: rgb(247, 66, 66);
+    color: seashell;
+    font-weight: bold;
+    font-size:larger;
+}
+input[type=text] {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+.title-1 h1{
+    font-style: italic;
+}
+
+form{
+    
+    background-color: white;
+    margin-left: 540px;;
+    margin-right: 550px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 10px ;
+
+
+
+}
+
+.rado,.info{
+    font-weight: bold;
+}
+
+
+ 
+#Last_Name {
+    position: relative;
+    top: -19px;
+    left: 155px;
+
+    /* border: 3px solid #73AD21; */
+  }
+  .som label{
+    position: relative;
+    bottom: -25px;
+    left: -100px;
+
+  }
+
+  
