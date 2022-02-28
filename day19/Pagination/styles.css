@@ -1,0 +1,34 @@
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#pgNos{
+    display: flex;
+}
+#listingTable>div{
+    padding: 0.1rem;
+    text-align: center;
+    margin: 0.2rem;
+    background-color: blanchedalmond;
+    max-width: 400px;
+    font: 1em sans-serif;
+    
+}
+
+#listingTable{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#pgNos button:focus{
+    background:#317bba;
+    color: white;
+}
+
+#page{
+    margin-top: 10px;
+}

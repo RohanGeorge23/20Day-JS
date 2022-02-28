@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            
+        </style>
+       
+    </head>
+    <body>
+        <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+        <h1 id="title">DOM Pagination</h1>
+        <p id="description">Basic Pagination using JS</p>
+        <div id="listingTable" class="table-responsive">
+            
+        </div>
+        <div id="buttons" class="d-flex"> 
+            <button onclick="changePage(1)">first</button>
+            <button onclick="prevPage()" id="btn_prev">previous</button>
+            <div id="pgNos" ></div> 
+            <button onclick="nextPage()" id="btn_next">next</button>
+            <button onclick="changePage(numPages())">last</button>
+            
+        </div>
+        <div id="page"></div>
+        <script src="script.js"></script>
+
+        
+    </body>
+</html>
